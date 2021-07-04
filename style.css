@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -461,10 +460,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -688,7 +683,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -770,7 +765,7 @@ h3 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
@@ -803,16 +798,17 @@ h3 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.clients img {
+    height: 313px;
+    width: 313px;
 }
 
 @media (max-width: 1024px) {
@@ -953,7 +949,7 @@ h3 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 214px;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1039,10 +1035,23 @@ h3 {
 
 .size {
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 .navsize {
     height: 50px;
-    width: auto;
+    width: 268px;
+}
+
+.black {
+    color:#000000;
+}
+
+button:focus {
+    border: black 2px solid;
+}
+
+q {
+    font-style: italic;
+    font-size: larger;
 }
