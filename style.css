@@ -806,10 +806,7 @@ h3 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-.clients img {
-    height: 313px;
-    width: 313px;
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -873,6 +870,11 @@ h3 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+}
+
+.clients img {
+    height: 313px;
+    width: 313px;
 }
 
 @media (max-width: 767px) {
