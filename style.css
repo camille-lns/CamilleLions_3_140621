@@ -872,10 +872,7 @@ h3 {
     }
 }
 
-.clients img {
-    height: 313px;
-    width: 313px;
-}
+
 
 @media (max-width: 767px) {
     .page-container {
@@ -1019,6 +1016,10 @@ h3 {
 @media (max-width: 767px) {
     .padding {
         padding: 0;
+    }
+    .clients img {
+        height: 313px;
+        width: 313px;
     }
 }
 
